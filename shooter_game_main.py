@@ -111,7 +111,7 @@ def main():
 
 
 
-        screen.fill((100,100,100))
+        screen.fill((250,170,104))
         bullet_group.draw(screen)
         p1.draw(screen)
         b1.draw(screen)
