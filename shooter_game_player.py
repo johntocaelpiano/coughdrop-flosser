@@ -4,8 +4,7 @@ class Player(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
 
-        self.image = pygame.Surface((30,30))
-        self.image.fill((255,0,0))
+        self.image = pygame.image.load("shooter_player.png")
         self.rect = self.image.get_rect()
         self.rect.center= (400,700)
     
